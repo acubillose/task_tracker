@@ -67,7 +67,7 @@ def delete_task(task_id):
     save_tasks(tasks)
     print(f"Tarea {task_id} eliminada.")
     
-# Funcion para actualizar descripcion de una tarea
+# Funcion para actualizar descripción de una tarea
 def update_task(task_id, new_description):
     tasks = load_tasks()
     for task in tasks:
